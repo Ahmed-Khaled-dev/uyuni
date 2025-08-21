@@ -86,6 +86,7 @@ import spark.Request;
 import spark.Response;
 
 public class HubApiController {
+    // Testing editing this.
     private static final Logger LOGGER = LogManager.getLogger(HubApiController.class);
 
     private static final LocalizationService LOC = LocalizationService.getInstance();

@@ -17,7 +17,7 @@ type Props = {
   /** Callback invoked after the deregistration as been performed */
   onDeregistered?: () => void;
 };
-
+// Testing editing this.
 type State = {
   confirmDeregistration: boolean;
 };

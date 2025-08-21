@@ -66,7 +66,7 @@ import spark.template.jade.JadeTemplateEngine;
  * Utility methods to integrate Spark with SUSE Manager's infrastructure.
  */
 public class SparkApplicationHelper {
-
+    // Testing editing this.
     private static final String TEMPLATE_ROOT = "com/suse/manager/webui";
     private static final Gson GSON = new GsonBuilder()
             .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeISOAdapter())
