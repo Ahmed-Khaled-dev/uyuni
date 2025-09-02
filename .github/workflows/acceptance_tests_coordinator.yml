@@ -20,6 +20,9 @@ jobs:
     name: Get recommended tests
     runs-on: ubuntu-latest
     steps:
+      - name: Debug connection string
+        run: echo "Connection String = postgresql://${{ secrets.PGSQL_USERNAME }}:${{ secrets.PGSQL_PASSWORD }}@${{ secrets.PGSQL_SERVER }}/${{ secrets.PGSQL_DATABASE }}"
+        
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 #v4.2.2
 
